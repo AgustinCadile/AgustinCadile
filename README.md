@@ -3,7 +3,7 @@
 
 
 ### Curriculum Vitae
-[image](ceasta.png)
 
+### Traducción
 
 
