@@ -1,1 +1,0 @@
-Esta carpeta contiene el archivo PDF con la interpretación al español del Capitulo 9 del libro "Sustainable Energy Transition" de DUSTIN MULVANEY junto con la carpeta ZIP que contiene los archivos de Latex.
