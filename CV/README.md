@@ -1,0 +1,1 @@
+En esta carpeta se encuentra el PDF del Curriculum junto con un archivo ZIP que contiene el archivo .tex editado en Overleaf
