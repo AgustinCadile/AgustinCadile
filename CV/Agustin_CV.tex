@@ -1,0 +1,249 @@
+%%%%%%%%%%%%%%%%%
+% This is an example CV created using altacv.cls (v1.3, 10 May 2020) written by
+% LianTze Lim (liantze@gmail.com), based on the
+% Cv created by BusinessInsider at http://www.businessinsider.my/a-sample-resume-for-marissa-mayer-2016-7/?r=US&IR=T
+%
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2003/12/01 or later.
+%%%%%%%%%%%%%%%%
+
+%% If you are using \orcid or academicons
+%% icons, make sure you have the academicons
+%% option here, and compile with XeLaTeX
+%% or LuaLaTeX.
+% \documentclass[10pt,a4paper,academicons]{altacv}
+
+%% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
+% \documentclass[10pt,a4paper,normalphoto]{altacv}
+
+\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
+
+%% AltaCV uses the fontawesome5 and academicon fonts
+%% and packages.
+%% See http://texdoc.net/pkg/fontawesome5 and http://texdoc.net/pkg/academicons for full list of symbols. You MUST compile with XeLaTeX or LuaLaTeX if you want to use academicons.
+
+% Change the page layout if you need to
+\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.2cm}
+
+% The paracol package lets you typeset columns of text in parallel
+\usepackage{paracol}
+
+
+% Change the font if you want to, depending on whether
+% you're using pdflatex or xelatex/lualatex
+\ifxetexorluatex
+  % If using xelatex or lualatex:
+  \setmainfont{Lato}
+\else
+  % If using pdflatex:
+  \usepackage[default]{lato}
+\fi
+
+% Change the colours if you want to
+\definecolor{VividPurple}{HTML}{056080}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+% \colorlet{name}{black}
+\colorlet{tagline}{VividPurple}
+\colorlet{heading}{VividPurple}
+\colorlet{headingrule}{VividPurple}
+% \colorlet{subheading}{PastelRed}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change some fonts, if necessary
+% \renewcommand{\namefont}{\Huge\rmfamily\bfseries}
+% \renewcommand{\personalinfofont}{\footnotesize}
+% \renewcommand{\cvsectionfont}{\LARGE\rmfamily\bfseries}
+% \renewcommand{\cvsubsectionfont}{\large\bfseries}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% sample.bib contains your publications
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{Agustín Andrés Cadile Passaniti}
+\tagline{Estudiante de Ingenieria Industrial  }
+% Cropped to square from https://en.wikipedia.org/wiki/Marissa_Mayer#/media/File:Marissa_Mayer_May_2014_(cropped).jpg, CC-BY 2.0
+%% You can add multiple photos on the left or right
+\photoR{2.5cm}{Agu.jpg}
+% \photoL{2cm}{Yacht_High,Suitcase_High}
+\personalinfo{%
+  % Not all of these are required!
+  % You can add your own with \printinfo{symbol}{detail}
+  \email{agustincadile@outlook.com.ar}
+%   \phone{000-00-0000}
+  \mailaddress{Ituzaingó 2842 - Ciudad }
+  \location{Mendoza, Argentina}
+  \homepage{www.facebook.com/acadile1/}
+  \phone{+54 (9) 261 4727386}
+%   \github{github.com/mmayer} % I'm just making this up though.
+%   \orcid{orcid.org/0000-0000-0000-0000} % Obviously making this up too. If you want to use this field (and also other academicons symbols), add "academicons" option to \documentclass{altacv}
+  %% You MUST add the academicons option to \documentclass, then compile with LuaLaTeX or XeLaTeX, if you want to use \orcid or other academicons commands.
+  % \orcid{0000-0000-0000-0000}
+  %% You can add your own arbtrary detail with
+  %% \printinfo{symbol}{detail}[optional hyperlink prefix]
+  % \printinfo{\faPaw}{Hey ho!}
+  %% Or you can declare your own field with
+  %% \NewInfoFiled{fieldname}{symbol}[optional hyperlink prefix] and use it:
+  % \NewInfoField{gitlab}{\faGitlab}[https://gitlab.com/]
+  % \gitlab{your_id}
+}
+
+\makecvheader
+
+%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+\AtBeginEnvironment{itemize}{\small}
+
+%% Set the left/right column width ratio to 6:4.
+\columnratio{0.6}
+
+% Start a 2-column paracol. Both the left and right columns will automatically
+% break across pages if things get too long.
+\begin{paracol}{2}
+
+\cvsection{Experiencia}
+
+\cvevent{ONG Deportivas}{Secretario Administrativo}{Abr. 2007 - Actualidad}{Mendoza, Argentina}
+\begin{itemize}
+\item  Gestión y presentación de documentación ante Organismos de Control para mantener existencia legal
+\item  Gestión y rendición de subsidios ante Organismos Gubernamentales
+
+\end{itemize}
+
+\divider
+
+\cvevent{Colegio Santo Tomás de Aquino}{Recepcionista}{2014-Actualidad}{Mendoza, Argentina}
+\begin{itemize}
+\item Atención al público
+\item Preparación y presentación de DDJJ de Caja Docente
+\end{itemize}
+
+% \divider
+
+% \cvevent{Product Engineer}{Google}{23 June 1999 -- 2001}{Palo Alto, CA}
+
+% \begin{itemize}
+% \item Joined the company as employe \#20 and female employee \#1
+% \item Developed targeted advertisement in order to use user's search queries and show them related ads
+% \end{itemize}
+
+\cvsection{Mi día}
+
+% Adapted from @Jake's answer from http://tex.stackexchange.com/a/82729/226
+% \wheelchart{outer radius}{inner radius}{
+% comma-separated list of value/text width/color/detail}
+% Some ad-hoc tweaking to adjust the labels so that they don't overlap
+\hspace*{-5em}  %% quick hack to move the wheelchart a bit left
+\wheelchart{1.5cm}{0.5cm}{%
+  40/13em/accent!100/Formación y Estudio,
+  5/11em/accent!20/Hobbies: Fotografía y Guitarra,
+  10/11em/accent!30/Familia y amigos,
+  15/8em/accent!60/Redacción y presentación de documentos,
+  15/9em/accent!50/Atención al público,
+  5/8em/accent!10/Cocinar}
+\cvsection{Habilidades}
+
+\cvskill{Inglés}{2}
+% \divider
+
+\cvskill{Suite Office}{4}
+% \divider
+
+\cvskill{Suite Adobe}{3}
+
+\cvsection{Fortalezas}
+
+\itemmarker{} {Responsable}
+
+\itemmarker{} {Curioso}
+
+\itemmarker{} {Detallista}
+
+\itemmarker{} {Tenaz}
+
+\itemmarker{} {Práctico}
+
+
+% use ONLY \newpage if you want to force a page break for
+% ONLY the currentc column
+\newpage
+
+\cvsection{Logros en el trabajo}
+\cvachievement{\faTrophy}{Digitalización y sistematización de documentación en ONGs}{Comencé a procesar digitalmente la documentación necesaria para mantener la institucionalidad (contable y legal), lo que permitió también agilizar su producción mediante la creación de plantillas fácilmente modificables y adaptables a distintas asociaciones. Además cree protocolos y checklist que permitan a Asociaciones relacionadas aprovechar este material.}\\
+
+\divider
+
+\cvachievement{\faTrophy}{Creación de contenido multimedia para ONG y Colegio}{Aprovechando mis conocimientos en fotografía y la suite Adobe creé material audiovisual que sirvió para promocionar eventos y actividades que se realizan en las asociaciones. Además se confeccioné folletos que de distribuyen hasta el día de hoy.}\\
+
+\divider
+
+\cvachievement{\faTrophy}{Publicación de noticas en una página web de una ONG}{Se encargó la creación de una página web en la cual publico noticas y resultados de las competencias deportivas desde hace ya más de 14 años, además gestiono el mantenimiento del dominio y del host}\\
+
+\divider
+
+\cvachievement{\faTrophy}{Apertura de Redes Sociales en ONG, Colegio e Iglesia}{Se propuso la apertura de nuevos canales de comunicación (Facebook e Instagram) aprovechando para realizar publicidad con el material visual y audivisual realizado}\\
+
+
+
+%% Switch to the right column. This will now automatically move to the second
+%% page if the content is too long.
+\switchcolumn
+
+\cvsection{Filosofía de Vida}
+\begin{quote}
+``Dar de lo recibido''
+\end{quote}
+
+\cvsection{Estoy Orgulloso de:}
+
+\cvachievement{\faTrophy}{Mis resultados académicos en el Colegio Secundario}{Fui Abanderado Nacional y mejor egresado}
+\divider
+
+\cvachievement{\faBook}{Ser autodidacta de mis hobbies e intereses}{He profundizado de manera independiente en las áreas en las que he sentido curiosidad}
+
+\divider
+
+\cvachievement{\faChartLine}{Mi curiosidad y apertura al cambio}{Me permite avanzar y buscar nuevos desafíos}
+
+
+\cvsection{Educación}
+
+\cvevent{Ingeniería Industrial} {UNCuyo}{2011-Actualidad}{Mendoza-Argentina}
+
+\divider
+
+\cvevent{Orientación Contable Impositiva y Laboral}{Colegio Santo Tomás de Aquino}{2004-2010}{Mendoza-Argentina}
+
+\cvsection{Hobbies e Intereses}
+Fotografía\\
+Guitarra\\
+Informática - Hardware\\
+Cocina\\
+
+\newpage
+
+\cvsection{Referencias}
+
+% \cvref{name}{email}{mailing address}
+\cvref{Fr. Emiliano Vanoli}{emilianovanoli@gmail.com}{Salta 2107 - Mendoza}
+{Colegio Santo Tomás de Aquino}
+
+\divider
+
+\cvref{Sr. José Genovese}{josegenovese@yahoo.com.ar}{Belgrano 3150 - Mendoza}
+{ONG Deportivas}
+
+\end{paracol}
+
+\end{document}
