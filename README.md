@@ -1,6 +1,5 @@
-## Módulo 1 de Técnicas y Herramientas Modernas 2021 - UNCuyo
-"Producción de textos e Hipertexto"
-
+# Técnicas y Herramientas Modernas 2021 - UNCuyo
+## Módulo 1 "Producción de textos e Hipertexto"
 ### Curriculum Vitae
 
 Este primer trabajo tenía por finalidad familiarizarnos con los editores de texto Latex. La plataforma utilizada fue Overleaf, donde se modificó una plantilla otorgada por la cátedra.
