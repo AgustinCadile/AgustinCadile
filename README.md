@@ -23,11 +23,11 @@ En este módulo se realizaron dos trabajos:
 
 * Trabajo de programación con ejercicios propuestos por la cátedra: se replicó una serie de ejercicios dados por los Profesores. Se presenta un archivo PDF y un R-Markdown con la resolución de los mismos.
 
-<a title="Trabajo de Clase" href="https://github.com/AgustinCadile/AgustinCadile/tree/main/Modulo_2"><img src="TP.jpg" alt="Portada del Trabajo propuesto por la cátedra" width="501" height="583"/></a>
+<a title="Trabajo de Clase" href="https://github.com/AgustinCadile/AgustinCadile/tree/main/Modulo_2"><img src="TP.jpg" alt="Portada del Trabajo propuesto por la cátedra" width="501" height="658"/></a>
 
 * Trabajo de R-Pub: se buscó una publicación de la página R-Pub que contenga el archivo de datos .csv. Con él se replicó el trabajo publicado citando al autor. Se presenta un archivo PDF y un R-Markdown con la réplica del trabajo.
 
-<a title="Trabajo de R-Pub" href="https://github.com/AgustinCadile/AgustinCadile/tree/main/Modulo_2"><img src="R-Pub.jpg" alt="Portada del Trabajo de R-Pub" width="501" height="583"/></a>
+<a title="Trabajo de R-Pub" href="https://github.com/AgustinCadile/AgustinCadile/tree/main/Modulo_2"><img src="R-Pub.jpg" alt="Portada del Trabajo de R-Pub" width="501" height="658"/></a>
 
 (Para acceder a los archivos haga clic [aqui](https://github.com/AgustinCadile/AgustinCadile/tree/main/Modulo_2) o sobre la imagen)
 
