@@ -21,6 +21,8 @@ El segundo trabajo del módulo consistió en realizar una interpretación en esp
 
 En este módulo se realizaron dos trabajos:
 
+(Para acceder a los archivos haga clic [aqui](https://github.com/AgustinCadile/AgustinCadile/tree/main/Modulo_2) o sobre las imagenes)
+
 * Trabajo de programación con ejercicios propuestos por la cátedra: se replicó una serie de ejercicios dados por los Profesores. Se presenta un archivo PDF y un R-Markdown con la resolución de los mismos.
 
 <a title="Trabajo de Clase" href="https://github.com/AgustinCadile/AgustinCadile/tree/main/Modulo_2"><img src="TP.jpg" alt="Portada del Trabajo propuesto por la cátedra" width="501" height="658"/></a>
@@ -29,6 +31,16 @@ En este módulo se realizaron dos trabajos:
 
 <a title="Trabajo de R-Pub" href="https://github.com/AgustinCadile/AgustinCadile/tree/main/Modulo_2"><img src="R-Pub.jpg" alt="Portada del Trabajo de R-Pub" width="501" height="658"/></a>
 
-(Para acceder a los archivos haga clic [aqui](https://github.com/AgustinCadile/AgustinCadile/tree/main/Modulo_2) o sobre la imagen)
+
+
+## Módulo 3 "Benchmarking"
+
+El objetivo de este módulo fue realizar un benchmarking de un tema a elección. Nuestro grupo eligió el Transporte Público de Pasajeros como objeto de estudio.
+Se analizaron varias ciudades con propuestas que creemos interesantes para los tiempos que corren y factibles de aplicar a nuestra provincia, Mendoza.
+
+(Para acceder a los archivos haga clic [aqui](https://github.com/AgustinCadile/AgustinCadile/tree/main/Modulo_3) o sobre la imagen)
+
+<a title="Trabajo de Benchmarking" href="https://github.com/AgustinCadile/AgustinCadile/tree/main/Modulo_3"><img src="Bench.jpg" alt="Portada del Trabajo de Benchmarking" width="501" height="658"/></a>
+
 
 
